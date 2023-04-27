@@ -29,7 +29,7 @@ Student::Student(string nm, string surnm) {
 
 // copy-constructor
 Student::Student(const Student& student) {
-	cout << "copy-constructor" << endl;
+	//cout << "copy-constructor" << endl;
 	name = student.name;
 	surname = student.surname;
 	age = student.age;

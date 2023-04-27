@@ -12,21 +12,16 @@ public:
 
 	// default constructor
 	Student() {}
-
 	// constructor with arguments
 	Student(string nm, string surnm, int a, float mark) {}
-
 	// constructor with arguments
 	Student(string nm, string surnm) {}
-
 	// copy-constructor
 	Student(const Student& student) {}
+	~Student(){}
 
 
-	~Student() {}
-
-	void clear() {}
-
-	string convert() {}
+	void clear(){}
+	string convert(){}
 };
 
